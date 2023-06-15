@@ -15,4 +15,9 @@ export class FirstComponent {
     //alert('Click détecté');
     this.university = 'Sésame';
   }
+
+  traitementDuFirst(msg) {
+    alert(msg);
+    //this.section = msg;
+  }
 }

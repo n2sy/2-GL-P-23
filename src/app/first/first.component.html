@@ -1,4 +1,4 @@
-<h3>Cours d'angular avec {{ section }}{{ university}} </h3>
+<h3>Cours d'angular avec {{ section }} {{ university}} </h3>
 
 <input [(ngModel)]="section" type="text">
 
@@ -6,4 +6,6 @@
     2023
 </div>
 
-<button (click)="traitement">Click me</button>
+<button (click)="traitement()">Click me</button>
+
+<app-child (msgToFirst)="traitementDuFirst($event)" [name]="'feres'" [cl]="'yellow'"></app-child>
