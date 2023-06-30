@@ -14,9 +14,10 @@ import { MsWordComponent } from './ms-word/ms-word.component';
 import { ServersComponent } from './servers/servers.component';
 import { CustomDirDirective } from './custom-dir.directive';
 import { ShortPipe } from './pipes/short.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponent, ChildComponent, CvComponent, ListeComponent, ItemComponent, DetailsComponent, DirectComponent, MsWordComponent, ServersComponent, CustomDirDirective, ShortPipe],
+  declarations: [AppComponent, FirstComponent, ChildComponent, CvComponent, ListeComponent, ItemComponent, DetailsComponent, DirectComponent, MsWordComponent, ServersComponent, CustomDirDirective, ShortPipe, FilterPipe],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
