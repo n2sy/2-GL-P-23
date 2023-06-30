@@ -11,13 +11,10 @@ export class MsWordComponent {
   size;
   font;
 
-  
-
   tabFonts = ['', 'Garamond', 'Phosphate', 'Arial'];
 
   changeSize(sz) {
-    console.log(sz.value);
-    this.size = sz.value + 'px'
-    
+   
+
   }
 }
